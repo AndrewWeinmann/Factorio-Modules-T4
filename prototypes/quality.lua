@@ -14,18 +14,15 @@ table.insert(container, item)
 data:extend(container)
 
 -- [Recipe] --
-local recipeCategory
 local recipeIngredients
 
 if mods["space-age"] then
-    recipeCategory = "electronics"
     recipeIngredients = {
         {type= "item", name="quality-module-3", amount=5},
         {type= "item", name="quantum-processor", amount=5},
         {type= "item", name="superconductor", amount=1}
     }
 else
-    recipeCategory = "crafting"
     recipeIngredients = {
         {type= "item", name="quality-module-3", amount=5},
         {type= "item", name="processing-unit", amount=10}
@@ -34,7 +31,6 @@ end
 
 data:extend({
     {
-        category = recipeCategory,
         enabled = false,
         energy_required = 120,
         ingredients = recipeIngredients,
