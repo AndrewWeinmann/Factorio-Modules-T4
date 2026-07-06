@@ -4,10 +4,10 @@
   "title": "Tier 4 Modules",
   "author": "Porkchop13",
   "description": "Adds tier 4 modules with progression along the lines of the base game by default.",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.0.28",
-    "? quality >= 2.0.28",
-    "? space-age >= 2.0.28"
+    "base >= 2.1.7",
+    "? quality >= 2.1.7",
+    "? space-age >= 2.1.7"
   ]
 }
