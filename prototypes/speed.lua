@@ -7,7 +7,7 @@ item.effect = {
     speed = settings.startup["t4-modules-speed-item-effect-speed"].value
 }
 if mods["quality"] then
-    item.effect.quality = settings.startup["t4-modules-speed-item-effect-quality"].value*10
+    item.effect.quality = settings.startup["t4-modules-speed-item-effect-quality"].value
 end
 item.icon = "__modules-t4__/graphics/icons/speed-module-4.png"
 item.name = "speed-module-4"
