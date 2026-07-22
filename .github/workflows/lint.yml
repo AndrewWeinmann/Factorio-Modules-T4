@@ -13,8 +13,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: lint
-        uses: Roang-zero1/factorio-mod-luacheck@master
+        uses: Roang-zero1/factorio-mod-luacheck@36bc44e4fb0fc415e176e9e8f9f88e432d67bdae # v1.1.0
         with:
           luacheckrc_url: https://github.com/Nexela/Factorio-luacheckrc/raw/master/.luacheckrc
