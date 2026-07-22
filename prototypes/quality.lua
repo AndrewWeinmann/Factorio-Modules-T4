@@ -3,7 +3,7 @@ local container = {}
 -- [Item] --
 local item = table.deepcopy(data.raw["module"]["quality-module-3"])
 item.effect = {
-    quality = settings.startup["t4-modules-quality-item-effect-quality"].value*10,
+    quality = settings.startup["t4-modules-quality-item-effect-quality"].value,
     speed = settings.startup["t4-modules-quality-item-effect-speed"].value
 }
 item.icon = "__modules-t4__/graphics/icons/quality-module-4.png"
